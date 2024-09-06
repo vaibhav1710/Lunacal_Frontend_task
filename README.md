@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +45,36 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+=======
+# Lunacal_Frontend_task
+
+
+A React application built with TypeScript and styled using Tailwind CSS.
+
+
+## Getting Started
+
+To get a local copy of this project up and running, follow these simple steps.
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/vaibhav1710/Lunacal_Frontend_task
+
+2. Start the development Server
+   ```bash
+   npm run dev
+    # or
+   yarn dev
+   
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- [Node.js (>=14.x)](https://nodejs.org)
+- [npm (>=6.x) or yarn (>=1.x)](https://www.npmjs.com/)
+
+
+
+>>>>>>> cfc85b034c5c9e6820e6d9fcf3b5a8a5894c9e06

@@ -17,24 +17,21 @@ function App() {
           </div>
 
           <div className="right w-full h-full flex flex-col ">
-              <Navbar />
+            <Navbar />
           </div>
         </div>
-        <HorizontalRule/> 
+        <HorizontalRule />
 
         <div className="w-custom-90 h-[48%] m-2 shadow-lg shadow-gray-900/50 bg-custom-card-gray rounded-2xl flex flex-row">
-          
           <div className="w-1/10 m-2">
             <Sidebar />
           </div>
 
-         
-            <div className="h-full">
-              <GalleryNav/>
-            </div>
-
+          <div className="h-full">
+            <GalleryNav />
+          </div>
         </div>
-        <HorizontalRule/>
+        <HorizontalRule />
       </div>
     </div>
   );

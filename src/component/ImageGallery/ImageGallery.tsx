@@ -1,15 +1,13 @@
 // ImageGallery.tsx
-import React, { FC } from 'react';
-import Image from '../Image/Image';
+import React, { FC } from "react";
+import Image from "../Image/Image";
 
+type ImageGalleryProps = {
+  currentIndex: number;
+  imageUrls: string[];
+};
 
-type ImageGalleryProps= {
-    currentIndex:number;
-    imageUrls: string[];
-}
-
-
-const ImageGallery: FC<ImageGalleryProps> = ({currentIndex, imageUrls}) => {
+const ImageGallery: FC<ImageGalleryProps> = ({ currentIndex, imageUrls }) => {
   // Sample image URLs
   // const imageUrls = [
   //   'https://i.pinimg.com/736x/75/77/70/757770c5b5b29ef89decb57978818e37.jpg',
@@ -19,22 +17,19 @@ const ImageGallery: FC<ImageGalleryProps> = ({currentIndex, imageUrls}) => {
   //   'https://i.pinimg.com/736x/db/07/1b/db071b823508371d69de8e32ead9d8d4.jpg',
   // ];
 
-
   return (
     <div className="relative w-full mr-4  flex items-center">
-
       {/* Images Container */}
       <div className="flex overflow-hidden w-[100%] h-[70%]">
         <div
           className="flex transition-transform duration-300"
-          style = {{  transform: `translateX(-${currentIndex * (33.33)}%)`
-        }}>
+          style={{ transform: `translateX(-${currentIndex * 33.33}%)` }}
+        >
           {imageUrls.map((url, index) => (
             <Image key={index} url={url} />
           ))}
         </div>
       </div>
-      
     </div>
   );
 };

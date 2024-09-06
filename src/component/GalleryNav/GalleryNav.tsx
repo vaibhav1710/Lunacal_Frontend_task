@@ -1,4 +1,4 @@
-import React, { FC, useState} from "react";
+import React, { FC, useState } from "react";
 import { FaPlus, FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import ImageGallery from "../ImageGallery/ImageGallery";
 
